@@ -154,8 +154,8 @@ gimbal_reseting_state_t gimbal_smooth_reseting(robot_state_t *exp_state,motors_t
             cur_delta_ang_yaw = get_minor_arc(GIMBAL_YAW_MOTOR_CENTER, yaw_pmotor->real.raw_scale, span_of(*yaw_pmotor));
             exp_delta_ang_pitch = get_minor_arc(GIMBAL_PITCH_MOTOR_CENTER, exp_state->pitch_ang, span_of(*pitch_pmotor));
             cur_delta_ang_pitch = get_minor_arc(GIMBAL_PITCH_MOTOR_CENTER, pitch_pmotor->real.raw_scale, span_of(*pitch_pmotor));
-            exp_state->pitch_ang += CLAMP(exp_delta_ang_pitch, SOFT_START_SPEED_MOTOR);//exp_state->yaw_ang+=0;
-            exp_state->yaw_ang += CLAMP(exp_delta_ang_yaw, SOFT_START_SPEED_MOTOR);
+            exp_state->pitch_ang += CLAMP(exp_delta_ang_pitch, SOFT_START_SPEED_MOTOR);
+            exp_state->yaw_ang +=CLAMP(exp_delta_ang_yaw, SOFT_START_SPEED_MOTOR);//exp_state->yaw_ang+=0; 
             soft_start_deadband = SOFT_START_DEADBAND_MOTOR;
         }
         if(gimbal_launch_time_cnt < SOFT_START_MAX_CNT){
@@ -290,7 +290,7 @@ void gimbal_init(void) {
 #if (BOARDS_MODE && MACHINE_TYPE == GIMBAL_MASTER) || !BOARDS_MODE
   //  CAN1
   //  ID  rxId    txId
-  //  1   0xA0+1  0x0A+1
+  //  1   0x00+1  0x00+1
   DM_motor_register(&motors->pitch,motor_model_DM_DM4310,PDESVDES,
                     COM_CAN, (uint32_t *)&GIMBAL_MOTORS_HCAN, 1, RR_DM4310,
                     &pitch_lpf_init_val, M_GIMBAL);
