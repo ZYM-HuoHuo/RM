@@ -108,7 +108,7 @@ static _DM_Motor_QUAD_t DM_motor_lib_DM8009_QUAD = {
 #define RR_DM4310   (1.f)       // 不带外部减速箱 为1 上位机设为10
 #define SPAN_DM4310 (16383 - 0) // 在P_MAX为12.5时(即出厂时)所对应的最大编码值
 static _DM_Motor_t DM_motor_lib_DM4310 = {
-    motor_model_DM_DM4310, 0, SPAN_DM4310, RR_DM4310, 0x00, 0x10, 0
+    motor_model_DM_DM4310, 0, SPAN_DM4310, RR_DM4310, 0xA0, 0x10, 0
 };
 static _DM_Motor_QUAD_t DM_motor_lib_DM4310_QUAD = {
     .L = { motor_model_DM_QUAD_DM4310, 0, 8191, RR_DM4310, 0x3FE, 0x300, 0 },

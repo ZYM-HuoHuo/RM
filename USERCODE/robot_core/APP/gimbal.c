@@ -143,7 +143,7 @@ gimbal_reseting_state_t gimbal_smooth_reseting(robot_state_t *exp_state,motors_t
             exp_delta_ang_pitch = get_minor_arc(pitch_rad_center, exp_state->pitch_ang, 2*PI);
             cur_delta_ang_pitch = get_minor_arc(pitch_rad_center, pitch_rad, 2*PI);
             exp_state->pitch_ang += CLAMP(exp_delta_ang_pitch, SOFT_START_SPEED_RAD);
-            exp_state->yaw_ang += CLAMP(exp_delta_ang_yaw, SOFT_START_SPEED_RAD);
+            exp_state->yaw_ang += CLAMP(exp_delta_ang_yaw, SOFT_START_SPEED_RAD);//exp_state->yaw_ang+=0;
             soft_start_deadband = SOFT_START_DEADBAND_RAD;
         }
         else{
@@ -154,7 +154,7 @@ gimbal_reseting_state_t gimbal_smooth_reseting(robot_state_t *exp_state,motors_t
             cur_delta_ang_yaw = get_minor_arc(GIMBAL_YAW_MOTOR_CENTER, yaw_pmotor->real.raw_scale, span_of(*yaw_pmotor));
             exp_delta_ang_pitch = get_minor_arc(GIMBAL_PITCH_MOTOR_CENTER, exp_state->pitch_ang, span_of(*pitch_pmotor));
             cur_delta_ang_pitch = get_minor_arc(GIMBAL_PITCH_MOTOR_CENTER, pitch_pmotor->real.raw_scale, span_of(*pitch_pmotor));
-            exp_state->pitch_ang += CLAMP(exp_delta_ang_pitch, SOFT_START_SPEED_MOTOR);
+            exp_state->pitch_ang += CLAMP(exp_delta_ang_pitch, SOFT_START_SPEED_MOTOR);//exp_state->yaw_ang+=0;
             exp_state->yaw_ang += CLAMP(exp_delta_ang_yaw, SOFT_START_SPEED_MOTOR);
             soft_start_deadband = SOFT_START_DEADBAND_MOTOR;
         }
@@ -296,7 +296,7 @@ void gimbal_init(void) {
                     &pitch_lpf_init_val, M_GIMBAL);
   //  2   0x206   0x1FF
    RM_QUAD_motor_register(&motors->yaw, motor_model_RM_QUAD_GM6020, QUAD_CURR,
-                          COM_CAN, (uint32_t *)&GIMBAL_MOTORS_HCAN, 2, RR_GM6020,
+                          COM_CAN, (uint32_t *)&GIMBAL_MOTORS_HCAN, 3, RR_GM6020,
                           &yaw_lpf_init_val, M_GIMBAL);
 
   // 云台电机 放在fifo1

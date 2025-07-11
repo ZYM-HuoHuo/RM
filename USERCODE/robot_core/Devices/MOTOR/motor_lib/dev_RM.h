@@ -62,7 +62,7 @@ static _RM_QUAD_Motor_t RM_motor_lib_M3508 = {
 #define RR_GM6020   1.f
 #define SPAN_GM6020 (8191 - 0)
 static _RM_QUAD_Motor_t RM_motor_lib_GM6020 = {
-    .L = { motor_model_RM_QUAD_GM6020, 0, 8191, RR_GM6020, 0x1ff, 0x204, 0 },
+    .L = { motor_model_RM_QUAD_GM6020, 0, 8191, RR_GM6020, 0x1ff, 0x204, 0 },  //tx rx reset
     .H = { motor_model_RM_QUAD_GM6020, 0, 8191, RR_GM6020, 0x2ff, 0x204, 0 },
 };
 #define IS_RM_QUAD_MOTOR(motor)                         \

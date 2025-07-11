@@ -14,10 +14,10 @@
 #define PITCH_RR 1.f
 #define YAW_RR 1.f
 
-#define PITCH_REL_RAD_MAX 1.015539f
-#define PITCH_REL_RAD_MIN 0.0636916f
+#define PITCH_REL_RAD_MAX 0.77
+#define PITCH_REL_RAD_MIN 0.1f
 #define YAW_REL_RAD_MAX 5.0453278f
-#define YAW_REL_RAD_MIN 0.81198067f
+#define YAW_REL_RAD_MIN 0.71198067f
 
 #define GIMBAL_PITCH_MOTOR_CENTER 13744
 #define GIMBAL_YAW_MOTOR_CENTER 5520
@@ -42,7 +42,7 @@ extern uint8_t is_confirm_0degree;
 // RAD值通过MOTOR除以编码值映射到弧度得到
 #define SOFT_START_DEADBAND_MOTOR 80
 #define SOFT_START_DEADBAND_RAD 0.061996f
-#define SOFT_START_MAX_CNT 2000
+#define SOFT_START_MAX_CNT 2000             //缓启动的最大值
 
 #define PATROL_YAW_SPEED 320
 #define PATROL_PITCH_SPEED 40
