@@ -54,7 +54,7 @@
 #define DIAL_RPM 120.f // 135 20Hz
 #define DIAL_TEST_RPM 120.f
 
-#define FRIC_RPM 6350.f // 不带减速箱的rpm
+#define FRIC_RPM 5000       //6150.f // 不带减速箱的rpm    //   6350     //左1   6410  右6360
 #define FRIC_TEST_RPM 4000.f
 
 #define ONE_SHOOT_ANG (0.029187724f-1.35870194f) //调参 

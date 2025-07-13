@@ -238,6 +238,7 @@
 			<member name="item199" type="CObject_ptr">ObjId0599</member>
 			<member name="item200" type="CObject_ptr">ObjId0602</member>
 			<member name="item201" type="CObject_ptr">ObjId1473</member>
+			<member name="item202" type="CObject_ptr">ObjId1478</member>
 		</object>
 		<object name="ObjId0002" type="CVariable">
 			<member name="name" type="string">chassis_follow_pid.kp</member>
@@ -685,7 +686,7 @@
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">1000</member>
 			<member name="address" type="string">pitch_imu_pid_ang_loop.out_max</member>
-			<member name="last_addr" type="uint32">0x801B9F8</member>
+			<member name="last_addr" type="uint32">0x801BBFC</member>
 			<member name="byte_size" type="sint32">4</member>
 			<member name="treat_as" type="sint32">0</member>
 			<member name="type_fmt" type="string">Fixed point number</member>
@@ -734,7 +735,7 @@
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">1000</member>
 			<member name="address" type="string">pitch_imu_pid_rpm_loop.out_max</member>
-			<member name="last_addr" type="uint32">0x801BA30</member>
+			<member name="last_addr" type="uint32">0x801BC34</member>
 			<member name="byte_size" type="sint32">4</member>
 			<member name="treat_as" type="sint32">0</member>
 			<member name="type_fmt" type="string">Fixed point number</member>
@@ -783,7 +784,7 @@
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">0</member>
 			<member name="address" type="string">pitch_imu_pid[1].i_max</member>
-			<member name="last_addr" type="uint32">0x20002CE4</member>
+			<member name="last_addr" type="uint32">0x20002D20</member>
 			<member name="byte_size" type="sint32">4</member>
 			<member name="treat_as" type="sint32">2</member>
 			<member name="type_fmt" type="string">IEEE floating point</member>
@@ -832,7 +833,7 @@
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">0</member>
 			<member name="address" type="string">pitch_imu_pid[0].kp</member>
-			<member name="last_addr" type="uint32">0x20002CA0</member>
+			<member name="last_addr" type="uint32">0x20002CDC</member>
 			<member name="byte_size" type="sint32">4</member>
 			<member name="treat_as" type="sint32">2</member>
 			<member name="type_fmt" type="string">IEEE floating point</member>
@@ -881,7 +882,7 @@
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">0</member>
 			<member name="address" type="string">pitch_imu_pid[0].ki</member>
-			<member name="last_addr" type="uint32">0x20002CA4</member>
+			<member name="last_addr" type="uint32">0x20002CE0</member>
 			<member name="byte_size" type="sint32">4</member>
 			<member name="treat_as" type="sint32">2</member>
 			<member name="type_fmt" type="string">IEEE floating point</member>
@@ -930,7 +931,7 @@
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">0</member>
 			<member name="address" type="string">pitch_imu_pid[0].kd</member>
-			<member name="last_addr" type="uint32">0x20002CA8</member>
+			<member name="last_addr" type="uint32">0x20002CE4</member>
 			<member name="byte_size" type="sint32">4</member>
 			<member name="treat_as" type="sint32">2</member>
 			<member name="type_fmt" type="string">IEEE floating point</member>
@@ -979,7 +980,7 @@
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">1000</member>
 			<member name="address" type="string">yaw_imu_pid_ang_loop.out_max</member>
-			<member name="last_addr" type="uint32">0x801B988</member>
+			<member name="last_addr" type="uint32">0x801BB8C</member>
 			<member name="byte_size" type="sint32">4</member>
 			<member name="treat_as" type="sint32">0</member>
 			<member name="type_fmt" type="string">Fixed point number</member>
@@ -1028,7 +1029,7 @@
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">1000</member>
 			<member name="address" type="string">yaw_imu_pid_rpm_loop.out_max</member>
-			<member name="last_addr" type="uint32">0x801B9C0</member>
+			<member name="last_addr" type="uint32">0x801BBC4</member>
 			<member name="byte_size" type="sint32">4</member>
 			<member name="treat_as" type="sint32">0</member>
 			<member name="type_fmt" type="string">Fixed point number</member>
@@ -1077,7 +1078,7 @@
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">1000</member>
 			<member name="address" type="string">yaw_imu_pid_ang_loop.i_max</member>
-			<member name="last_addr" type="uint32">0x801B984</member>
+			<member name="last_addr" type="uint32">0x801BB88</member>
 			<member name="byte_size" type="sint32">4</member>
 			<member name="treat_as" type="sint32">0</member>
 			<member name="type_fmt" type="string">Fixed point number</member>
@@ -1126,7 +1127,7 @@
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">0</member>
 			<member name="address" type="string">yaw_imu_pid[0].kp</member>
-			<member name="last_addr" type="uint32">0x20002D10</member>
+			<member name="last_addr" type="uint32">0x20002D4C</member>
 			<member name="byte_size" type="sint32">4</member>
 			<member name="treat_as" type="sint32">2</member>
 			<member name="type_fmt" type="string">IEEE floating point</member>
@@ -1175,7 +1176,7 @@
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">0</member>
 			<member name="address" type="string">yaw_imu_pid[0].ki</member>
-			<member name="last_addr" type="uint32">0x20002D14</member>
+			<member name="last_addr" type="uint32">0x20002D50</member>
 			<member name="byte_size" type="sint32">4</member>
 			<member name="treat_as" type="sint32">2</member>
 			<member name="type_fmt" type="string">IEEE floating point</member>
@@ -1224,7 +1225,7 @@
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">0</member>
 			<member name="address" type="string">yaw_imu_pid[0].kd</member>
-			<member name="last_addr" type="uint32">0x20002D18</member>
+			<member name="last_addr" type="uint32">0x20002D54</member>
 			<member name="byte_size" type="sint32">4</member>
 			<member name="treat_as" type="sint32">2</member>
 			<member name="type_fmt" type="string">IEEE floating point</member>
@@ -1273,7 +1274,7 @@
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">1000</member>
 			<member name="address" type="string">pitch_pid_ang_loop.kp</member>
-			<member name="last_addr" type="uint32">0x801B898</member>
+			<member name="last_addr" type="uint32">0x801BA9C</member>
 			<member name="byte_size" type="sint32">4</member>
 			<member name="treat_as" type="sint32">0</member>
 			<member name="type_fmt" type="string">Fixed point number</member>
@@ -1322,7 +1323,7 @@
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">1000</member>
 			<member name="address" type="string">pitch_pid_ang_loop.ki</member>
-			<member name="last_addr" type="uint32">0x801B89C</member>
+			<member name="last_addr" type="uint32">0x801BAA0</member>
 			<member name="byte_size" type="sint32">4</member>
 			<member name="treat_as" type="sint32">0</member>
 			<member name="type_fmt" type="string">Fixed point number</member>
@@ -1371,7 +1372,7 @@
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">1000</member>
 			<member name="address" type="string">pitch_pid_ang_loop.kd</member>
-			<member name="last_addr" type="uint32">0x801B8A0</member>
+			<member name="last_addr" type="uint32">0x801BAA4</member>
 			<member name="byte_size" type="sint32">4</member>
 			<member name="treat_as" type="sint32">0</member>
 			<member name="type_fmt" type="string">Fixed point number</member>
@@ -1420,7 +1421,7 @@
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">1000</member>
 			<member name="address" type="string">pitch_pid_rpm_loop.kp</member>
-			<member name="last_addr" type="uint32">0x801B8D0</member>
+			<member name="last_addr" type="uint32">0x801BAD4</member>
 			<member name="byte_size" type="sint32">4</member>
 			<member name="treat_as" type="sint32">0</member>
 			<member name="type_fmt" type="string">Fixed point number</member>
@@ -1469,7 +1470,7 @@
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">1000</member>
 			<member name="address" type="string">pitch_pid_rpm_loop.ki</member>
-			<member name="last_addr" type="uint32">0x801B8D4</member>
+			<member name="last_addr" type="uint32">0x801BAD8</member>
 			<member name="byte_size" type="sint32">4</member>
 			<member name="treat_as" type="sint32">0</member>
 			<member name="type_fmt" type="string">Fixed point number</member>
@@ -1518,7 +1519,7 @@
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">1000</member>
 			<member name="address" type="string">pitch_pid_rpm_loop.kd</member>
-			<member name="last_addr" type="uint32">0x801B8D8</member>
+			<member name="last_addr" type="uint32">0x801BADC</member>
 			<member name="byte_size" type="sint32">4</member>
 			<member name="treat_as" type="sint32">0</member>
 			<member name="type_fmt" type="string">Fixed point number</member>
@@ -1567,7 +1568,7 @@
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">0</member>
 			<member name="address" type="string">yaw_pid_ang_loop.kp</member>
-			<member name="last_addr" type="uint32">0x801B828</member>
+			<member name="last_addr" type="uint32">0x801BA2C</member>
 			<member name="byte_size" type="sint32">4</member>
 			<member name="treat_as" type="sint32">0</member>
 			<member name="type_fmt" type="string">Fixed point number</member>
@@ -1616,7 +1617,7 @@
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">1000</member>
 			<member name="address" type="string">yaw_pid_ang_loop.ki</member>
-			<member name="last_addr" type="uint32">0x801B82C</member>
+			<member name="last_addr" type="uint32">0x801BA30</member>
 			<member name="byte_size" type="sint32">4</member>
 			<member name="treat_as" type="sint32">0</member>
 			<member name="type_fmt" type="string">Fixed point number</member>
@@ -1665,7 +1666,7 @@
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">1000</member>
 			<member name="address" type="string">yaw_pid_ang_loop.kd</member>
-			<member name="last_addr" type="uint32">0x801B830</member>
+			<member name="last_addr" type="uint32">0x801BA34</member>
 			<member name="byte_size" type="sint32">4</member>
 			<member name="treat_as" type="sint32">0</member>
 			<member name="type_fmt" type="string">Fixed point number</member>
@@ -1714,7 +1715,7 @@
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">1000</member>
 			<member name="address" type="string">yaw_pid_rpm_loop.kp</member>
-			<member name="last_addr" type="uint32">0x801B860</member>
+			<member name="last_addr" type="uint32">0x801BA64</member>
 			<member name="byte_size" type="sint32">4</member>
 			<member name="treat_as" type="sint32">0</member>
 			<member name="type_fmt" type="string">Fixed point number</member>
@@ -1763,7 +1764,7 @@
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">1000</member>
 			<member name="address" type="string">yaw_pid_rpm_loop.ki</member>
-			<member name="last_addr" type="uint32">0x801B864</member>
+			<member name="last_addr" type="uint32">0x801BA68</member>
 			<member name="byte_size" type="sint32">4</member>
 			<member name="treat_as" type="sint32">0</member>
 			<member name="type_fmt" type="string">Fixed point number</member>
@@ -1812,7 +1813,7 @@
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">1000</member>
 			<member name="address" type="string">yaw_pid_rpm_loop.kd</member>
-			<member name="last_addr" type="uint32">0x801B868</member>
+			<member name="last_addr" type="uint32">0x801BA6C</member>
 			<member name="byte_size" type="sint32">4</member>
 			<member name="treat_as" type="sint32">0</member>
 			<member name="type_fmt" type="string">Fixed point number</member>
@@ -1861,7 +1862,7 @@
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">0</member>
 			<member name="address" type="string">shoot_data.bullet_speed</member>
-			<member name="last_addr" type="uint32">0x20001107</member>
+			<member name="last_addr" type="uint32">0x2000111F</member>
 			<member name="byte_size" type="sint32">4</member>
 			<member name="treat_as" type="sint32">2</member>
 			<member name="type_fmt" type="string">IEEE floating point</member>
@@ -1910,7 +1911,7 @@
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">1000</member>
 			<member name="address" type="string">shoot_left_fric_pid_init_val.kp</member>
-			<member name="last_addr" type="uint32">0x801BA58</member>
+			<member name="last_addr" type="uint32">0x801BC5C</member>
 			<member name="byte_size" type="sint32">4</member>
 			<member name="treat_as" type="sint32">0</member>
 			<member name="type_fmt" type="string">Fixed point number</member>
@@ -1959,7 +1960,7 @@
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">1000</member>
 			<member name="address" type="string">shoot_left_fric_pid_init_val.ki</member>
-			<member name="last_addr" type="uint32">0x801BA5C</member>
+			<member name="last_addr" type="uint32">0x801BC60</member>
 			<member name="byte_size" type="sint32">4</member>
 			<member name="treat_as" type="sint32">0</member>
 			<member name="type_fmt" type="string">Fixed point number</member>
@@ -2008,7 +2009,7 @@
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">1000</member>
 			<member name="address" type="string">shoot_left_fric_pid_init_val.kd</member>
-			<member name="last_addr" type="uint32">0x801BA60</member>
+			<member name="last_addr" type="uint32">0x801BC64</member>
 			<member name="byte_size" type="sint32">4</member>
 			<member name="treat_as" type="sint32">0</member>
 			<member name="type_fmt" type="string">Fixed point number</member>
@@ -2057,7 +2058,7 @@
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">1000</member>
 			<member name="address" type="string">shoot_right_fric_pid_init_val.kp</member>
-			<member name="last_addr" type="uint32">0x801BA90</member>
+			<member name="last_addr" type="uint32">0x801BC94</member>
 			<member name="byte_size" type="sint32">4</member>
 			<member name="treat_as" type="sint32">0</member>
 			<member name="type_fmt" type="string">Fixed point number</member>
@@ -2106,7 +2107,7 @@
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">1000</member>
 			<member name="address" type="string">shoot_right_fric_pid_init_val.ki</member>
-			<member name="last_addr" type="uint32">0x801BA94</member>
+			<member name="last_addr" type="uint32">0x801BC98</member>
 			<member name="byte_size" type="sint32">4</member>
 			<member name="treat_as" type="sint32">0</member>
 			<member name="type_fmt" type="string">Fixed point number</member>
@@ -2155,7 +2156,7 @@
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">1000</member>
 			<member name="address" type="string">shoot_right_fric_pid_init_val.kd</member>
-			<member name="last_addr" type="uint32">0x801BA98</member>
+			<member name="last_addr" type="uint32">0x801BC9C</member>
 			<member name="byte_size" type="sint32">4</member>
 			<member name="treat_as" type="sint32">0</member>
 			<member name="type_fmt" type="string">Fixed point number</member>
@@ -2204,7 +2205,7 @@
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">0</member>
 			<member name="address" type="string">expected_state.v_x</member>
-			<member name="last_addr" type="uint32">0x20002B30</member>
+			<member name="last_addr" type="uint32">0x20002B6C</member>
 			<member name="byte_size" type="sint32">4</member>
 			<member name="treat_as" type="sint32">2</member>
 			<member name="type_fmt" type="string">IEEE floating point</member>
@@ -2253,7 +2254,7 @@
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">0</member>
 			<member name="address" type="string">expected_state.v_y</member>
-			<member name="last_addr" type="uint32">0x20002B34</member>
+			<member name="last_addr" type="uint32">0x20002B70</member>
 			<member name="byte_size" type="sint32">4</member>
 			<member name="treat_as" type="sint32">2</member>
 			<member name="type_fmt" type="string">IEEE floating point</member>
@@ -2302,7 +2303,7 @@
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">0</member>
 			<member name="address" type="string">expected_state.w_z</member>
-			<member name="last_addr" type="uint32">0x20002B38</member>
+			<member name="last_addr" type="uint32">0x20002B74</member>
 			<member name="byte_size" type="sint32">4</member>
 			<member name="treat_as" type="sint32">2</member>
 			<member name="type_fmt" type="string">IEEE floating point</member>
@@ -2351,7 +2352,7 @@
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">0</member>
 			<member name="address" type="string">current_state.v_x</member>
-			<member name="last_addr" type="uint32">0x20002B48</member>
+			<member name="last_addr" type="uint32">0x20002B84</member>
 			<member name="byte_size" type="sint32">4</member>
 			<member name="treat_as" type="sint32">2</member>
 			<member name="type_fmt" type="string">IEEE floating point</member>
@@ -2400,7 +2401,7 @@
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">0</member>
 			<member name="address" type="string">current_state.v_y</member>
-			<member name="last_addr" type="uint32">0x20002B4C</member>
+			<member name="last_addr" type="uint32">0x20002B88</member>
 			<member name="byte_size" type="sint32">4</member>
 			<member name="treat_as" type="sint32">2</member>
 			<member name="type_fmt" type="string">IEEE floating point</member>
@@ -2449,7 +2450,7 @@
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">0</member>
 			<member name="address" type="string">current_state.w_z</member>
-			<member name="last_addr" type="uint32">0x20002B50</member>
+			<member name="last_addr" type="uint32">0x20002B8C</member>
 			<member name="byte_size" type="sint32">4</member>
 			<member name="treat_as" type="sint32">2</member>
 			<member name="type_fmt" type="string">IEEE floating point</member>
@@ -2498,7 +2499,7 @@
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">0</member>
 			<member name="address" type="string">current_state.w_z</member>
-			<member name="last_addr" type="uint32">0x20002B50</member>
+			<member name="last_addr" type="uint32">0x20002B8C</member>
 			<member name="byte_size" type="sint32">4</member>
 			<member name="treat_as" type="sint32">2</member>
 			<member name="type_fmt" type="string">IEEE floating point</member>
@@ -2547,7 +2548,7 @@
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">0</member>
 			<member name="address" type="string">expected_state.w_z</member>
-			<member name="last_addr" type="uint32">0x20002B38</member>
+			<member name="last_addr" type="uint32">0x20002B74</member>
 			<member name="byte_size" type="sint32">4</member>
 			<member name="treat_as" type="sint32">2</member>
 			<member name="type_fmt" type="string">IEEE floating point</member>
@@ -4703,7 +4704,7 @@
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">0</member>
 			<member name="address" type="string">yaw_imu_pid[0].k_deadband</member>
-			<member name="last_addr" type="uint32">0x20002D24</member>
+			<member name="last_addr" type="uint32">0x20002D60</member>
 			<member name="byte_size" type="sint32">4</member>
 			<member name="treat_as" type="sint32">2</member>
 			<member name="type_fmt" type="string">IEEE floating point</member>
@@ -4752,7 +4753,7 @@
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">0</member>
 			<member name="address" type="string">yaw_imu_pid[1].kp</member>
-			<member name="last_addr" type="uint32">0x20002D48</member>
+			<member name="last_addr" type="uint32">0x20002D84</member>
 			<member name="byte_size" type="sint32">4</member>
 			<member name="treat_as" type="sint32">2</member>
 			<member name="type_fmt" type="string">IEEE floating point</member>
@@ -4801,7 +4802,7 @@
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">0</member>
 			<member name="address" type="string">yaw_imu_pid[1].ki</member>
-			<member name="last_addr" type="uint32">0x20002D4C</member>
+			<member name="last_addr" type="uint32">0x20002D88</member>
 			<member name="byte_size" type="sint32">4</member>
 			<member name="treat_as" type="sint32">2</member>
 			<member name="type_fmt" type="string">IEEE floating point</member>
@@ -4850,7 +4851,7 @@
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">0</member>
 			<member name="address" type="string">yaw_imu_pid[1].kd</member>
-			<member name="last_addr" type="uint32">0x20002D50</member>
+			<member name="last_addr" type="uint32">0x20002D8C</member>
 			<member name="byte_size" type="sint32">4</member>
 			<member name="treat_as" type="sint32">2</member>
 			<member name="type_fmt" type="string">IEEE floating point</member>
@@ -4899,7 +4900,7 @@
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">0</member>
 			<member name="address" type="string">yaw_imu_pid[1].k_deadband</member>
-			<member name="last_addr" type="uint32">0x20002D5C</member>
+			<member name="last_addr" type="uint32">0x20002D98</member>
 			<member name="byte_size" type="sint32">4</member>
 			<member name="treat_as" type="sint32">2</member>
 			<member name="type_fmt" type="string">IEEE floating point</member>
@@ -4948,7 +4949,7 @@
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">0</member>
 			<member name="address" type="string">current_state.yaw_ang</member>
-			<member name="last_addr" type="uint32">0x20002B54</member>
+			<member name="last_addr" type="uint32">0x20002B90</member>
 			<member name="byte_size" type="sint32">4</member>
 			<member name="treat_as" type="sint32">2</member>
 			<member name="type_fmt" type="string">IEEE floating point</member>
@@ -4997,7 +4998,7 @@
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">0</member>
 			<member name="address" type="string">expected_state.yaw_ang</member>
-			<member name="last_addr" type="uint32">0x20002B3C</member>
+			<member name="last_addr" type="uint32">0x20002B78</member>
 			<member name="byte_size" type="sint32">4</member>
 			<member name="treat_as" type="sint32">2</member>
 			<member name="type_fmt" type="string">IEEE floating point</member>
@@ -5046,7 +5047,7 @@
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">0</member>
 			<member name="address" type="string">pitch_imu_pid[0].k_deadband</member>
-			<member name="last_addr" type="uint32">0x20002CB4</member>
+			<member name="last_addr" type="uint32">0x20002CF0</member>
 			<member name="byte_size" type="sint32">4</member>
 			<member name="treat_as" type="sint32">2</member>
 			<member name="type_fmt" type="string">IEEE floating point</member>
@@ -5095,7 +5096,7 @@
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">0</member>
 			<member name="address" type="string">pitch_imu_pid[1].kp</member>
-			<member name="last_addr" type="uint32">0x20002CD8</member>
+			<member name="last_addr" type="uint32">0x20002D14</member>
 			<member name="byte_size" type="sint32">4</member>
 			<member name="treat_as" type="sint32">2</member>
 			<member name="type_fmt" type="string">IEEE floating point</member>
@@ -5144,7 +5145,7 @@
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">0</member>
 			<member name="address" type="string">pitch_imu_pid[1].ki</member>
-			<member name="last_addr" type="uint32">0x20002CDC</member>
+			<member name="last_addr" type="uint32">0x20002D18</member>
 			<member name="byte_size" type="sint32">4</member>
 			<member name="treat_as" type="sint32">2</member>
 			<member name="type_fmt" type="string">IEEE floating point</member>
@@ -5193,7 +5194,7 @@
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">0</member>
 			<member name="address" type="string">pitch_imu_pid[1].kd</member>
-			<member name="last_addr" type="uint32">0x20002CE0</member>
+			<member name="last_addr" type="uint32">0x20002D1C</member>
 			<member name="byte_size" type="sint32">4</member>
 			<member name="treat_as" type="sint32">2</member>
 			<member name="type_fmt" type="string">IEEE floating point</member>
@@ -5242,7 +5243,7 @@
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">0</member>
 			<member name="address" type="string">pitch_imu_pid[1].k_deadband</member>
-			<member name="last_addr" type="uint32">0x20002CEC</member>
+			<member name="last_addr" type="uint32">0x20002D28</member>
 			<member name="byte_size" type="sint32">4</member>
 			<member name="treat_as" type="sint32">2</member>
 			<member name="type_fmt" type="string">IEEE floating point</member>
@@ -5291,7 +5292,7 @@
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">0</member>
 			<member name="address" type="string">expected_state.pitch_ang</member>
-			<member name="last_addr" type="uint32">0x20002B40</member>
+			<member name="last_addr" type="uint32">0x20002B7C</member>
 			<member name="byte_size" type="sint32">4</member>
 			<member name="treat_as" type="sint32">2</member>
 			<member name="type_fmt" type="string">IEEE floating point</member>
@@ -5340,7 +5341,7 @@
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">0</member>
 			<member name="address" type="string">current_state.pitch_ang</member>
-			<member name="last_addr" type="uint32">0x20002B58</member>
+			<member name="last_addr" type="uint32">0x20002B94</member>
 			<member name="byte_size" type="sint32">4</member>
 			<member name="treat_as" type="sint32">2</member>
 			<member name="type_fmt" type="string">IEEE floating point</member>
@@ -5389,7 +5390,7 @@
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">0</member>
 			<member name="address" type="string">yaw_imu_vision_pid[0].kp</member>
-			<member name="last_addr" type="uint32">0x20002DF0</member>
+			<member name="last_addr" type="uint32">0x20002E2C</member>
 			<member name="byte_size" type="sint32">4</member>
 			<member name="treat_as" type="sint32">2</member>
 			<member name="type_fmt" type="string">IEEE floating point</member>
@@ -5438,7 +5439,7 @@
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">0</member>
 			<member name="address" type="string">yaw_imu_vision_pid[0].ki</member>
-			<member name="last_addr" type="uint32">0x20002DF4</member>
+			<member name="last_addr" type="uint32">0x20002E30</member>
 			<member name="byte_size" type="sint32">4</member>
 			<member name="treat_as" type="sint32">2</member>
 			<member name="type_fmt" type="string">IEEE floating point</member>
@@ -5487,7 +5488,7 @@
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">0</member>
 			<member name="address" type="string">yaw_imu_vision_pid[0].kd</member>
-			<member name="last_addr" type="uint32">0x20002DF8</member>
+			<member name="last_addr" type="uint32">0x20002E34</member>
 			<member name="byte_size" type="sint32">4</member>
 			<member name="treat_as" type="sint32">2</member>
 			<member name="type_fmt" type="string">IEEE floating point</member>
@@ -5536,7 +5537,7 @@
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">0</member>
 			<member name="address" type="string">yaw_imu_vision_pid[0].k_deadband</member>
-			<member name="last_addr" type="uint32">0x20002E04</member>
+			<member name="last_addr" type="uint32">0x20002E40</member>
 			<member name="byte_size" type="sint32">4</member>
 			<member name="treat_as" type="sint32">2</member>
 			<member name="type_fmt" type="string">IEEE floating point</member>
@@ -5585,7 +5586,7 @@
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">0</member>
 			<member name="address" type="string">yaw_imu_vision_pid[1].kp</member>
-			<member name="last_addr" type="uint32">0x20002E28</member>
+			<member name="last_addr" type="uint32">0x20002E64</member>
 			<member name="byte_size" type="sint32">4</member>
 			<member name="treat_as" type="sint32">2</member>
 			<member name="type_fmt" type="string">IEEE floating point</member>
@@ -5634,7 +5635,7 @@
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">0</member>
 			<member name="address" type="string">yaw_imu_vision_pid[1].ki</member>
-			<member name="last_addr" type="uint32">0x20002E2C</member>
+			<member name="last_addr" type="uint32">0x20002E68</member>
 			<member name="byte_size" type="sint32">4</member>
 			<member name="treat_as" type="sint32">2</member>
 			<member name="type_fmt" type="string">IEEE floating point</member>
@@ -5683,7 +5684,7 @@
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">0</member>
 			<member name="address" type="string">yaw_imu_vision_pid[1].kd</member>
-			<member name="last_addr" type="uint32">0x20002E30</member>
+			<member name="last_addr" type="uint32">0x20002E6C</member>
 			<member name="byte_size" type="sint32">4</member>
 			<member name="treat_as" type="sint32">2</member>
 			<member name="type_fmt" type="string">IEEE floating point</member>
@@ -5732,7 +5733,7 @@
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">0</member>
 			<member name="address" type="string">yaw_imu_vision_pid[1].k_deadband</member>
-			<member name="last_addr" type="uint32">0x20002E3C</member>
+			<member name="last_addr" type="uint32">0x20002E78</member>
 			<member name="byte_size" type="sint32">4</member>
 			<member name="treat_as" type="sint32">2</member>
 			<member name="type_fmt" type="string">IEEE floating point</member>
@@ -5781,7 +5782,7 @@
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">0</member>
 			<member name="address" type="string">pitch_pid[0].kp</member>
-			<member name="last_addr" type="uint32">0x20002BC0</member>
+			<member name="last_addr" type="uint32">0x20002BFC</member>
 			<member name="byte_size" type="sint32">4</member>
 			<member name="treat_as" type="sint32">2</member>
 			<member name="type_fmt" type="string">IEEE floating point</member>
@@ -5830,7 +5831,7 @@
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">0</member>
 			<member name="address" type="string">pitch_pid[0].ki</member>
-			<member name="last_addr" type="uint32">0x20002BC4</member>
+			<member name="last_addr" type="uint32">0x20002C00</member>
 			<member name="byte_size" type="sint32">4</member>
 			<member name="treat_as" type="sint32">2</member>
 			<member name="type_fmt" type="string">IEEE floating point</member>
@@ -5879,7 +5880,7 @@
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">0</member>
 			<member name="address" type="string">pitch_pid[0].kd</member>
-			<member name="last_addr" type="uint32">0x20002BC8</member>
+			<member name="last_addr" type="uint32">0x20002C04</member>
 			<member name="byte_size" type="sint32">4</member>
 			<member name="treat_as" type="sint32">2</member>
 			<member name="type_fmt" type="string">IEEE floating point</member>
@@ -5928,7 +5929,7 @@
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">0</member>
 			<member name="address" type="string">pitch_pid[0].k_deadband</member>
-			<member name="last_addr" type="uint32">0x20002BD4</member>
+			<member name="last_addr" type="uint32">0x20002C10</member>
 			<member name="byte_size" type="sint32">4</member>
 			<member name="treat_as" type="sint32">2</member>
 			<member name="type_fmt" type="string">IEEE floating point</member>
@@ -5977,7 +5978,7 @@
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">0</member>
 			<member name="address" type="string">pitch_pid[1].kp</member>
-			<member name="last_addr" type="uint32">0x20002BF8</member>
+			<member name="last_addr" type="uint32">0x20002C34</member>
 			<member name="byte_size" type="sint32">4</member>
 			<member name="treat_as" type="sint32">2</member>
 			<member name="type_fmt" type="string">IEEE floating point</member>
@@ -6026,7 +6027,7 @@
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">0</member>
 			<member name="address" type="string">pitch_pid[1].ki</member>
-			<member name="last_addr" type="uint32">0x20002BFC</member>
+			<member name="last_addr" type="uint32">0x20002C38</member>
 			<member name="byte_size" type="sint32">4</member>
 			<member name="treat_as" type="sint32">2</member>
 			<member name="type_fmt" type="string">IEEE floating point</member>
@@ -6075,7 +6076,7 @@
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">0</member>
 			<member name="address" type="string">pitch_pid[1].kd</member>
-			<member name="last_addr" type="uint32">0x20002C00</member>
+			<member name="last_addr" type="uint32">0x20002C3C</member>
 			<member name="byte_size" type="sint32">4</member>
 			<member name="treat_as" type="sint32">2</member>
 			<member name="type_fmt" type="string">IEEE floating point</member>
@@ -6124,7 +6125,7 @@
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">0</member>
 			<member name="address" type="string">pitch_pid[1].k_deadband</member>
-			<member name="last_addr" type="uint32">0x20002C0C</member>
+			<member name="last_addr" type="uint32">0x20002C48</member>
 			<member name="byte_size" type="sint32">4</member>
 			<member name="treat_as" type="sint32">2</member>
 			<member name="type_fmt" type="string">IEEE floating point</member>
@@ -6173,7 +6174,7 @@
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">0</member>
 			<member name="address" type="string">yaw_pid[0].kp</member>
-			<member name="last_addr" type="uint32">0x20002C30</member>
+			<member name="last_addr" type="uint32">0x20002C6C</member>
 			<member name="byte_size" type="sint32">4</member>
 			<member name="treat_as" type="sint32">2</member>
 			<member name="type_fmt" type="string">IEEE floating point</member>
@@ -6222,7 +6223,7 @@
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">0</member>
 			<member name="address" type="string">yaw_pid[0].ki</member>
-			<member name="last_addr" type="uint32">0x20002C34</member>
+			<member name="last_addr" type="uint32">0x20002C70</member>
 			<member name="byte_size" type="sint32">4</member>
 			<member name="treat_as" type="sint32">2</member>
 			<member name="type_fmt" type="string">IEEE floating point</member>
@@ -6271,7 +6272,7 @@
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">0</member>
 			<member name="address" type="string">yaw_pid[0].kd</member>
-			<member name="last_addr" type="uint32">0x20002C38</member>
+			<member name="last_addr" type="uint32">0x20002C74</member>
 			<member name="byte_size" type="sint32">4</member>
 			<member name="treat_as" type="sint32">2</member>
 			<member name="type_fmt" type="string">IEEE floating point</member>
@@ -6320,7 +6321,7 @@
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">0</member>
 			<member name="address" type="string">yaw_pid[0].k_deadband</member>
-			<member name="last_addr" type="uint32">0x20002C44</member>
+			<member name="last_addr" type="uint32">0x20002C80</member>
 			<member name="byte_size" type="sint32">4</member>
 			<member name="treat_as" type="sint32">2</member>
 			<member name="type_fmt" type="string">IEEE floating point</member>
@@ -6369,7 +6370,7 @@
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">0</member>
 			<member name="address" type="string">yaw_pid[1].kp</member>
-			<member name="last_addr" type="uint32">0x20002C68</member>
+			<member name="last_addr" type="uint32">0x20002CA4</member>
 			<member name="byte_size" type="sint32">4</member>
 			<member name="treat_as" type="sint32">2</member>
 			<member name="type_fmt" type="string">IEEE floating point</member>
@@ -6418,7 +6419,7 @@
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">0</member>
 			<member name="address" type="string">yaw_pid[1].ki</member>
-			<member name="last_addr" type="uint32">0x20002C6C</member>
+			<member name="last_addr" type="uint32">0x20002CA8</member>
 			<member name="byte_size" type="sint32">4</member>
 			<member name="treat_as" type="sint32">2</member>
 			<member name="type_fmt" type="string">IEEE floating point</member>
@@ -6467,7 +6468,7 @@
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">0</member>
 			<member name="address" type="string">yaw_pid[1].kd</member>
-			<member name="last_addr" type="uint32">0x20002C70</member>
+			<member name="last_addr" type="uint32">0x20002CAC</member>
 			<member name="byte_size" type="sint32">4</member>
 			<member name="treat_as" type="sint32">2</member>
 			<member name="type_fmt" type="string">IEEE floating point</member>
@@ -6516,7 +6517,7 @@
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">0</member>
 			<member name="address" type="string">yaw_pid[1].k_deadband</member>
-			<member name="last_addr" type="uint32">0x20002C7C</member>
+			<member name="last_addr" type="uint32">0x20002CB8</member>
 			<member name="byte_size" type="sint32">4</member>
 			<member name="treat_as" type="sint32">2</member>
 			<member name="type_fmt" type="string">IEEE floating point</member>
@@ -6761,7 +6762,7 @@
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">0</member>
 			<member name="address" type="string">set_fric_rpm</member>
-			<member name="last_addr" type="uint32">0x2000088C</member>
+			<member name="last_addr" type="uint32">0x200008E4</member>
 			<member name="byte_size" type="sint32">4</member>
 			<member name="treat_as" type="sint32">2</member>
 			<member name="type_fmt" type="string">IEEE floating point</member>
@@ -7838,7 +7839,7 @@
 			<member name="name" type="string">LB_fl_fc</member>
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">0</member>
-			<member name="address" type="string">motor._[7].lpf_fltr.fc </member>
+			<member name="address" type="string">motor._[7].lpf_fltr.fc</member>
 			<member name="last_addr" type="uint32">0x20003720</member>
 			<member name="byte_size" type="sint32">4</member>
 			<member name="treat_as" type="sint32">2</member>
@@ -8080,7 +8081,7 @@
 		</object>
 		<object name="ObjId0481" type="CObList"/>
 		<object name="ObjId0482" type="CVariable">
-			<member name="name" type="string">yaw_fl_fc </member>
+			<member name="name" type="string">yaw_fl_fc</member>
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">0</member>
 			<member name="address" type="string">motor._[1].lpf_fltr.fc</member>
@@ -8525,7 +8526,7 @@
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">0</member>
 			<member name="address" type="string">exp_dial_rpm</member>
-			<member name="last_addr" type="uint32">0x20000894</member>
+			<member name="last_addr" type="uint32">0x200008EC</member>
 			<member name="byte_size" type="sint32">4</member>
 			<member name="treat_as" type="sint32">2</member>
 			<member name="type_fmt" type="string">IEEE floating point</member>
@@ -8574,7 +8575,7 @@
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">0</member>
 			<member name="address" type="string">shoot_data.bullet_freq</member>
-			<member name="last_addr" type="uint32">0x20001106</member>
+			<member name="last_addr" type="uint32">0x2000111E</member>
 			<member name="byte_size" type="sint32">1</member>
 			<member name="treat_as" type="sint32">0</member>
 			<member name="type_fmt" type="string">Fixed point number</member>
@@ -8623,7 +8624,7 @@
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">0</member>
 			<member name="address" type="string">yaw_rad</member>
-			<member name="last_addr" type="uint32">0x20000658</member>
+			<member name="last_addr" type="uint32">0x200006B0</member>
 			<member name="byte_size" type="sint32">4</member>
 			<member name="treat_as" type="sint32">2</member>
 			<member name="type_fmt" type="string">IEEE floating point</member>
@@ -8672,7 +8673,7 @@
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">0</member>
 			<member name="address" type="string">yaw_pid[1].i_out</member>
-			<member name="last_addr" type="uint32">0x20002C90</member>
+			<member name="last_addr" type="uint32">0x20002CCC</member>
 			<member name="byte_size" type="sint32">4</member>
 			<member name="treat_as" type="sint32">2</member>
 			<member name="type_fmt" type="string">IEEE floating point</member>
@@ -8721,7 +8722,7 @@
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">0</member>
 			<member name="address" type="string">yaw_pid[1].out_max</member>
-			<member name="last_addr" type="uint32">0x20002C78</member>
+			<member name="last_addr" type="uint32">0x20002CB4</member>
 			<member name="byte_size" type="sint32">4</member>
 			<member name="treat_as" type="sint32">2</member>
 			<member name="type_fmt" type="string">IEEE floating point</member>
@@ -8770,7 +8771,7 @@
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">0</member>
 			<member name="address" type="string">yaw_pid[0].i_out</member>
-			<member name="last_addr" type="uint32">0x20002C58</member>
+			<member name="last_addr" type="uint32">0x20002C94</member>
 			<member name="byte_size" type="sint32">4</member>
 			<member name="treat_as" type="sint32">2</member>
 			<member name="type_fmt" type="string">IEEE floating point</member>
@@ -8819,7 +8820,7 @@
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">0</member>
 			<member name="address" type="string">yaw_imu_pid[1].out</member>
-			<member name="last_addr" type="uint32">0x20002D7C</member>
+			<member name="last_addr" type="uint32">0x20002DB8</member>
 			<member name="byte_size" type="sint32">4</member>
 			<member name="treat_as" type="sint32">2</member>
 			<member name="type_fmt" type="string">IEEE floating point</member>
@@ -8868,7 +8869,7 @@
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">0</member>
 			<member name="address" type="string">pitch_imu_pid[1].out</member>
-			<member name="last_addr" type="uint32">0x20002D0C</member>
+			<member name="last_addr" type="uint32">0x20002D48</member>
 			<member name="byte_size" type="sint32">4</member>
 			<member name="treat_as" type="sint32">2</member>
 			<member name="type_fmt" type="string">IEEE floating point</member>
@@ -8917,7 +8918,7 @@
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">0</member>
 			<member name="address" type="string">pitch_imu_pid[0].i_out</member>
-			<member name="last_addr" type="uint32">0x20002CC8</member>
+			<member name="last_addr" type="uint32">0x20002D04</member>
 			<member name="byte_size" type="sint32">4</member>
 			<member name="treat_as" type="sint32">2</member>
 			<member name="type_fmt" type="string">IEEE floating point</member>
@@ -8966,7 +8967,7 @@
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">0</member>
 			<member name="address" type="string">pitch_imu_pid[1].i_out</member>
-			<member name="last_addr" type="uint32">0x20002D00</member>
+			<member name="last_addr" type="uint32">0x20002D3C</member>
 			<member name="byte_size" type="sint32">4</member>
 			<member name="treat_as" type="sint32">2</member>
 			<member name="type_fmt" type="string">IEEE floating point</member>
@@ -9113,7 +9114,7 @@
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">0</member>
 			<member name="address" type="string">yaw_imu_pid[1].out_max</member>
-			<member name="last_addr" type="uint32">0x20002D58</member>
+			<member name="last_addr" type="uint32">0x20002D94</member>
 			<member name="byte_size" type="sint32">4</member>
 			<member name="treat_as" type="sint32">2</member>
 			<member name="type_fmt" type="string">IEEE floating point</member>
@@ -9162,7 +9163,7 @@
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">0</member>
 			<member name="address" type="string">pitch_imu_pid[1].out_max</member>
-			<member name="last_addr" type="uint32">0x20002CE8</member>
+			<member name="last_addr" type="uint32">0x20002D24</member>
 			<member name="byte_size" type="sint32">4</member>
 			<member name="treat_as" type="sint32">2</member>
 			<member name="type_fmt" type="string">IEEE floating point</member>
@@ -9211,7 +9212,7 @@
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">0</member>
 			<member name="address" type="string">yaw_pid[1].out</member>
-			<member name="last_addr" type="uint32">0x20002C9C</member>
+			<member name="last_addr" type="uint32">0x20002CD8</member>
 			<member name="byte_size" type="sint32">4</member>
 			<member name="treat_as" type="sint32">2</member>
 			<member name="type_fmt" type="string">IEEE floating point</member>
@@ -9260,7 +9261,7 @@
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">0</member>
 			<member name="address" type="string">pitch_pid[0].i_out</member>
-			<member name="last_addr" type="uint32">0x20002BE8</member>
+			<member name="last_addr" type="uint32">0x20002C24</member>
 			<member name="byte_size" type="sint32">4</member>
 			<member name="treat_as" type="sint32">2</member>
 			<member name="type_fmt" type="string">IEEE floating point</member>
@@ -9309,7 +9310,7 @@
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">0</member>
 			<member name="address" type="string">pitch_pid[1].i_out</member>
-			<member name="last_addr" type="uint32">0x20002C20</member>
+			<member name="last_addr" type="uint32">0x20002C5C</member>
 			<member name="byte_size" type="sint32">4</member>
 			<member name="treat_as" type="sint32">2</member>
 			<member name="type_fmt" type="string">IEEE floating point</member>
@@ -9358,7 +9359,7 @@
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">0</member>
 			<member name="address" type="string">pitch_pid[1].out_max</member>
-			<member name="last_addr" type="uint32">0x20002C08</member>
+			<member name="last_addr" type="uint32">0x20002C44</member>
 			<member name="byte_size" type="sint32">4</member>
 			<member name="treat_as" type="sint32">2</member>
 			<member name="type_fmt" type="string">IEEE floating point</member>
@@ -9407,7 +9408,7 @@
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">0</member>
 			<member name="address" type="string">yaw_imu_pid[1].i_out</member>
-			<member name="last_addr" type="uint32">0x20002D70</member>
+			<member name="last_addr" type="uint32">0x20002DAC</member>
 			<member name="byte_size" type="sint32">4</member>
 			<member name="treat_as" type="sint32">2</member>
 			<member name="type_fmt" type="string">IEEE floating point</member>
@@ -9456,7 +9457,7 @@
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">0</member>
 			<member name="address" type="string">yaw_imu_pid[0].i_out</member>
-			<member name="last_addr" type="uint32">0x20002D38</member>
+			<member name="last_addr" type="uint32">0x20002D74</member>
 			<member name="byte_size" type="sint32">4</member>
 			<member name="treat_as" type="sint32">2</member>
 			<member name="type_fmt" type="string">IEEE floating point</member>
@@ -9505,7 +9506,7 @@
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">0</member>
 			<member name="address" type="string">yaw_imu_rpm</member>
-			<member name="last_addr" type="uint32">0x20000F1C</member>
+			<member name="last_addr" type="uint32">0x20000EEC</member>
 			<member name="byte_size" type="sint32">4</member>
 			<member name="treat_as" type="sint32">2</member>
 			<member name="type_fmt" type="string">IEEE floating point</member>
@@ -9603,7 +9604,7 @@
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">0</member>
 			<member name="address" type="string">yaw_imu_pid[0].i_max</member>
-			<member name="last_addr" type="uint32">0x20002D1C</member>
+			<member name="last_addr" type="uint32">0x20002D58</member>
 			<member name="byte_size" type="sint32">4</member>
 			<member name="treat_as" type="sint32">2</member>
 			<member name="type_fmt" type="string">IEEE floating point</member>
@@ -9652,7 +9653,7 @@
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">0</member>
 			<member name="address" type="string">pitch_imu_pid[0].i_max</member>
-			<member name="last_addr" type="uint32">0x20002CAC</member>
+			<member name="last_addr" type="uint32">0x20002CE8</member>
 			<member name="byte_size" type="sint32">4</member>
 			<member name="treat_as" type="sint32">2</member>
 			<member name="type_fmt" type="string">IEEE floating point</member>
@@ -9701,7 +9702,7 @@
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">0</member>
 			<member name="address" type="string">pitch_feedback</member>
-			<member name="last_addr" type="uint32">0x20000F20</member>
+			<member name="last_addr" type="uint32">0x20000EF0</member>
 			<member name="byte_size" type="sint32">4</member>
 			<member name="treat_as" type="sint32">2</member>
 			<member name="type_fmt" type="string">IEEE floating point</member>
@@ -9799,7 +9800,7 @@
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">0</member>
 			<member name="address" type="string">yaw_imu_min</member>
-			<member name="last_addr" type="uint32">0x2000063C</member>
+			<member name="last_addr" type="uint32">0x20000694</member>
 			<member name="byte_size" type="sint32">4</member>
 			<member name="treat_as" type="sint32">2</member>
 			<member name="type_fmt" type="string">IEEE floating point</member>
@@ -9848,7 +9849,7 @@
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">0</member>
 			<member name="address" type="string">yaw_imu_max</member>
-			<member name="last_addr" type="uint32">0x20000638</member>
+			<member name="last_addr" type="uint32">0x20000690</member>
 			<member name="byte_size" type="sint32">4</member>
 			<member name="treat_as" type="sint32">2</member>
 			<member name="type_fmt" type="string">IEEE floating point</member>
@@ -9897,7 +9898,7 @@
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">0</member>
 			<member name="address" type="string">pitch_imu_min</member>
-			<member name="last_addr" type="uint32">0x2000062C</member>
+			<member name="last_addr" type="uint32">0x20000684</member>
 			<member name="byte_size" type="sint32">4</member>
 			<member name="treat_as" type="sint32">2</member>
 			<member name="type_fmt" type="string">IEEE floating point</member>
@@ -9946,7 +9947,7 @@
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">0</member>
 			<member name="address" type="string">pitch_imu_max</member>
-			<member name="last_addr" type="uint32">0x20000628</member>
+			<member name="last_addr" type="uint32">0x20000680</member>
 			<member name="byte_size" type="sint32">4</member>
 			<member name="treat_as" type="sint32">2</member>
 			<member name="type_fmt" type="string">IEEE floating point</member>
@@ -9995,7 +9996,7 @@
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">0</member>
 			<member name="address" type="string">patrol_pitch_dir</member>
-			<member name="last_addr" type="uint32">0x200006A0</member>
+			<member name="last_addr" type="uint32">0x200006F8</member>
 			<member name="byte_size" type="sint32">1</member>
 			<member name="treat_as" type="sint32">1</member>
 			<member name="type_fmt" type="string">Fixed point number</member>
@@ -10044,7 +10045,7 @@
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">0</member>
 			<member name="address" type="string">yaw_rad</member>
-			<member name="last_addr" type="uint32">0x20000658</member>
+			<member name="last_addr" type="uint32">0x200006B0</member>
 			<member name="byte_size" type="sint32">4</member>
 			<member name="treat_as" type="sint32">2</member>
 			<member name="type_fmt" type="string">IEEE floating point</member>
@@ -10093,7 +10094,7 @@
 			<member name="unit" type="string">unit</member>
 			<member name="period" type="sint32">0</member>
 			<member name="address" type="string">pitch_rad</member>
-			<member name="last_addr" type="uint32">0x20000654</member>
+			<member name="last_addr" type="uint32">0x200006AC</member>
 			<member name="byte_size" type="sint32">4</member>
 			<member name="treat_as" type="sint32">2</member>
 			<member name="type_fmt" type="string">IEEE floating point</member>
@@ -10137,6 +10138,55 @@
 			<member name="enum_items" type="CObList">ObjId1475</member>
 		</object>
 		<object name="ObjId1475" type="CObList"/>
+		<object name="ObjId1478" type="CVariable">
+			<member name="name" type="string">cur_fric_rpm[0]</member>
+			<member name="unit" type="string">unit</member>
+			<member name="period" type="sint32">1000</member>
+			<member name="address" type="string">0x0000</member>
+			<member name="last_addr" type="uint32">0x0</member>
+			<member name="byte_size" type="sint32">2</member>
+			<member name="treat_as" type="sint32">0</member>
+			<member name="type_fmt" type="string">Fixed point number</member>
+			<member name="bit_shift" type="sint32">0</member>
+			<member name="bit_mask" type="string">no mask (-1)</member>
+			<member name="value_trf" type="CObject_ptr">NULL</member>
+			<member name="enum_enabled" type="sint32">0</member>
+			<member name="enum_num_always" type="sint32">0</member>
+			<member name="enum_default_val" type="string">unknown</member>
+			<member name="enum_num_with_default" type="sint32">1</member>
+			<member name="enum_list" type="CEnumDoubleToString">ObjId1479</member>
+			<member name="show_as" type="sint32">0</member>
+			<member name="show_val" type="sint32">1</member>
+			<member name="show_max" type="sint32">0</member>
+			<member name="show_min" type="sint32">0</member>
+			<member name="show_num_fixed_digs" type="sint32">2147483647</member>
+			<member name="show_num_lzero_fill" type="sint32">0</member>
+			<member name="show_num_afp_digs" type="sint32">2147483647</member>
+			<member name="show_num_exp" type="sint32">0</member>
+			<member name="show_ascii_zterm" type="sint32">0</member>
+			<member name="show_ascii_rev" type="sint32">0</member>
+			<member name="show_ascii_hex" type="sint32">1</member>
+			<member name="show_ascii_chwdt" type="sint32">1</member>
+			<member name="filt_enabled" type="sint32">0</member>
+			<member name="filt_reset_onmod" type="sint32">1</member>
+			<member name="filt_time" type="uint32">0x1388</member>
+			<member name="modif_mode" type="sint32">0</member>
+			<member name="modif_edit_mode" type="sint32">2</member>
+			<member name="modif_set_mode" type="sint32">0</member>
+			<member name="modif_auto_fin" type="sint32">1</member>
+			<member name="modif_auto_hide" type="sint32">1</member>
+			<member name="modif_predefs_modes" type="uint32">0x1</member>
+			<member name="modif_predefs_other" type="string"/>
+			<member name="modif_set_min" type="string"/>
+			<member name="modif_set_max" type="string"/>
+			<member name="modif_set_step" type="string"/>
+			<member name="modif_address" type="string"/>
+			<member name="modif_last_addr" type="uint32">0x0</member>
+		</object>
+		<object name="ObjId1479" type="CEnumDoubleToString">
+			<member name="enum_items" type="CObList">ObjId1480</member>
+		</object>
+		<object name="ObjId1480" type="CObList"/>
 		<object name="ObjId0605" type="CObList"/>
 		<object name="ObjId0606" type="CObList"/>
 		<object name="ObjId0607" type="CMapWordToOb"/>
@@ -14172,6 +14222,7 @@
 		<object name="ObjId1210" type="CObList"/>
 		<object name="ObjId1211" type="CObList">
 			<member name="item0" type="CObject_ptr">ObjId1212</member>
+			<member name="item1" type="CObject_ptr">ObjId1481</member>
 		</object>
 		<object name="ObjId1212" type="CPrjItemScope">
 			<member name="parent_item" type="CObject_ptr">ObjId1208</member>
@@ -14352,6 +14403,185 @@
 			<member name="raxis_max_auto" type="sint32">1</member>
 			<member name="raxis_subsets" type="sint32">0</member>
 		</object>
+		<object name="ObjId1481" type="CPrjItemScope">
+			<member name="parent_item" type="CObject_ptr">ObjId1208</member>
+			<member name="name" type="string">cur_fric_rpm</member>
+			<member name="href" type="string"/>
+			<member name="graph_buffer" type="sint32">1000</member>
+			<member name="graph_type" type="sint32">0</member>
+			<member name="graph_x_units" type="sint32">2</member>
+			<member name="graph_x_label" type="string">Time</member>
+			<member name="graph_x_addunits" type="sint32">1</member>
+			<member name="graph_legend_loc" type="sint32">0</member>
+			<member name="graph_legen_vis" type="sint32">1</member>
+			<member name="graph_grid_horz" type="sint32">1</member>
+			<member name="graph_grid_vert" type="sint32">1</member>
+			<member name="graph_x_min" type="real64">0.00000000000000000000e+000</member>
+			<member name="graph_x_max" type="real64">1.00000000000000000000e+002</member>
+			<member name="graph_x_min_auto" type="sint32">1</member>
+			<member name="graph_x_max_auto" type="sint32">1</member>
+			<member name="var0_info" type="CPrjItemRS_VarInfo">ObjId1482</member>
+			<member name="var0_color" type="uint32">0x2E2DED</member>
+			<member name="var1_info" type="CPrjItemRS_VarInfo">ObjId1483</member>
+			<member name="var1_color" type="uint32">0x478C00</member>
+			<member name="var2_info" type="CPrjItemRS_VarInfo">ObjId1484</member>
+			<member name="var2_color" type="uint32">0xA95918</member>
+			<member name="var3_info" type="CPrjItemRS_VarInfo">ObjId1485</member>
+			<member name="var3_color" type="uint32">0x227DF3</member>
+			<member name="var4_info" type="CPrjItemRS_VarInfo">ObjId1486</member>
+			<member name="var4_color" type="uint32">0x912C66</member>
+			<member name="var5_info" type="CPrjItemRS_VarInfo">ObjId1487</member>
+			<member name="var5_color" type="uint32">0x201DA1</member>
+			<member name="var6_info" type="CPrjItemRS_VarInfo">ObjId1488</member>
+			<member name="var6_color" type="uint32">0x9338B3</member>
+			<member name="var7_info" type="CPrjItemRS_VarInfo">ObjId1489</member>
+			<member name="var7_color" type="uint32">0x0</member>
+			<member name="yblock0_info" type="CPrjItemRS_YBlockInfo">ObjId1490</member>
+			<member name="yblock1_info" type="CPrjItemRS_YBlockInfo">ObjId1491</member>
+			<member name="yblock2_info" type="CPrjItemRS_YBlockInfo">ObjId1492</member>
+			<member name="yblock3_info" type="CPrjItemRS_YBlockInfo">ObjId1493</member>
+			<member name="yblock4_info" type="CPrjItemRS_YBlockInfo">ObjId1494</member>
+			<member name="yblock5_info" type="CPrjItemRS_YBlockInfo">ObjId1495</member>
+			<member name="scope_period" type="real64">2.50000000000000000000e-001</member>
+			<member name="scope_x_autoscale" type="sint32">1</member>
+			<member name="scope_x_width" type="real64">1.00000000000000000000e+001</member>
+		</object>
+		<object name="ObjId1482" type="CPrjItemRS_VarInfo">
+			<member name="variable" type="CObject_ptr">ObjId1478</member>
+			<member name="visible" type="sint32">0</member>
+			<member name="y_block" type="sint32">0</member>
+		</object>
+		<object name="ObjId1483" type="CPrjItemRS_VarInfo">
+			<member name="variable" type="CObject_ptr">NULL</member>
+			<member name="visible" type="sint32">0</member>
+			<member name="y_block" type="sint32">0</member>
+		</object>
+		<object name="ObjId1484" type="CPrjItemRS_VarInfo">
+			<member name="variable" type="CObject_ptr">NULL</member>
+			<member name="visible" type="sint32">0</member>
+			<member name="y_block" type="sint32">0</member>
+		</object>
+		<object name="ObjId1485" type="CPrjItemRS_VarInfo">
+			<member name="variable" type="CObject_ptr">NULL</member>
+			<member name="visible" type="sint32">0</member>
+			<member name="y_block" type="sint32">0</member>
+		</object>
+		<object name="ObjId1486" type="CPrjItemRS_VarInfo">
+			<member name="variable" type="CObject_ptr">NULL</member>
+			<member name="visible" type="sint32">0</member>
+			<member name="y_block" type="sint32">0</member>
+		</object>
+		<object name="ObjId1487" type="CPrjItemRS_VarInfo">
+			<member name="variable" type="CObject_ptr">NULL</member>
+			<member name="visible" type="sint32">0</member>
+			<member name="y_block" type="sint32">0</member>
+		</object>
+		<object name="ObjId1488" type="CPrjItemRS_VarInfo">
+			<member name="variable" type="CObject_ptr">NULL</member>
+			<member name="visible" type="sint32">0</member>
+			<member name="y_block" type="sint32">0</member>
+		</object>
+		<object name="ObjId1489" type="CPrjItemRS_VarInfo">
+			<member name="variable" type="CObject_ptr">NULL</member>
+			<member name="visible" type="sint32">0</member>
+			<member name="y_block" type="sint32">0</member>
+		</object>
+		<object name="ObjId1490" type="CPrjItemRS_YBlockInfo">
+			<member name="join_class" type="sint32">1</member>
+			<member name="laxis_label" type="string">lAxis</member>
+			<member name="laxis_style" type="sint32">0</member>
+			<member name="laxis_min" type="real64">-1.00000000000000000000e+001</member>
+			<member name="laxis_max" type="real64">1.00000000000000000000e+001</member>
+			<member name="laxis_min_auto" type="sint32">1</member>
+			<member name="laxis_max_auto" type="sint32">1</member>
+			<member name="raxis_label" type="string">rAxis</member>
+			<member name="raxis_style" type="sint32">0</member>
+			<member name="raxis_min" type="real64">-1.00000000000000000000e+001</member>
+			<member name="raxis_max" type="real64">1.00000000000000000000e+001</member>
+			<member name="raxis_min_auto" type="sint32">1</member>
+			<member name="raxis_max_auto" type="sint32">1</member>
+			<member name="raxis_subsets" type="sint32">0</member>
+		</object>
+		<object name="ObjId1491" type="CPrjItemRS_YBlockInfo">
+			<member name="join_class" type="sint32">2</member>
+			<member name="laxis_label" type="string">lAxis</member>
+			<member name="laxis_style" type="sint32">0</member>
+			<member name="laxis_min" type="real64">-1.00000000000000000000e+001</member>
+			<member name="laxis_max" type="real64">1.00000000000000000000e+001</member>
+			<member name="laxis_min_auto" type="sint32">1</member>
+			<member name="laxis_max_auto" type="sint32">1</member>
+			<member name="raxis_label" type="string">rAxis</member>
+			<member name="raxis_style" type="sint32">0</member>
+			<member name="raxis_min" type="real64">-1.00000000000000000000e+001</member>
+			<member name="raxis_max" type="real64">1.00000000000000000000e+001</member>
+			<member name="raxis_min_auto" type="sint32">1</member>
+			<member name="raxis_max_auto" type="sint32">1</member>
+			<member name="raxis_subsets" type="sint32">0</member>
+		</object>
+		<object name="ObjId1492" type="CPrjItemRS_YBlockInfo">
+			<member name="join_class" type="sint32">3</member>
+			<member name="laxis_label" type="string">lAxis</member>
+			<member name="laxis_style" type="sint32">0</member>
+			<member name="laxis_min" type="real64">-1.00000000000000000000e+001</member>
+			<member name="laxis_max" type="real64">1.00000000000000000000e+001</member>
+			<member name="laxis_min_auto" type="sint32">1</member>
+			<member name="laxis_max_auto" type="sint32">1</member>
+			<member name="raxis_label" type="string">rAxis</member>
+			<member name="raxis_style" type="sint32">0</member>
+			<member name="raxis_min" type="real64">-1.00000000000000000000e+001</member>
+			<member name="raxis_max" type="real64">1.00000000000000000000e+001</member>
+			<member name="raxis_min_auto" type="sint32">1</member>
+			<member name="raxis_max_auto" type="sint32">1</member>
+			<member name="raxis_subsets" type="sint32">0</member>
+		</object>
+		<object name="ObjId1493" type="CPrjItemRS_YBlockInfo">
+			<member name="join_class" type="sint32">4</member>
+			<member name="laxis_label" type="string">lAxis</member>
+			<member name="laxis_style" type="sint32">0</member>
+			<member name="laxis_min" type="real64">-1.00000000000000000000e+001</member>
+			<member name="laxis_max" type="real64">1.00000000000000000000e+001</member>
+			<member name="laxis_min_auto" type="sint32">1</member>
+			<member name="laxis_max_auto" type="sint32">1</member>
+			<member name="raxis_label" type="string">rAxis</member>
+			<member name="raxis_style" type="sint32">0</member>
+			<member name="raxis_min" type="real64">-1.00000000000000000000e+001</member>
+			<member name="raxis_max" type="real64">1.00000000000000000000e+001</member>
+			<member name="raxis_min_auto" type="sint32">1</member>
+			<member name="raxis_max_auto" type="sint32">1</member>
+			<member name="raxis_subsets" type="sint32">0</member>
+		</object>
+		<object name="ObjId1494" type="CPrjItemRS_YBlockInfo">
+			<member name="join_class" type="sint32">5</member>
+			<member name="laxis_label" type="string">lAxis</member>
+			<member name="laxis_style" type="sint32">0</member>
+			<member name="laxis_min" type="real64">-1.00000000000000000000e+001</member>
+			<member name="laxis_max" type="real64">1.00000000000000000000e+001</member>
+			<member name="laxis_min_auto" type="sint32">1</member>
+			<member name="laxis_max_auto" type="sint32">1</member>
+			<member name="raxis_label" type="string">rAxis</member>
+			<member name="raxis_style" type="sint32">0</member>
+			<member name="raxis_min" type="real64">-1.00000000000000000000e+001</member>
+			<member name="raxis_max" type="real64">1.00000000000000000000e+001</member>
+			<member name="raxis_min_auto" type="sint32">1</member>
+			<member name="raxis_max_auto" type="sint32">1</member>
+			<member name="raxis_subsets" type="sint32">0</member>
+		</object>
+		<object name="ObjId1495" type="CPrjItemRS_YBlockInfo">
+			<member name="join_class" type="sint32">6</member>
+			<member name="laxis_label" type="string">lAxis</member>
+			<member name="laxis_style" type="sint32">0</member>
+			<member name="laxis_min" type="real64">-1.00000000000000000000e+001</member>
+			<member name="laxis_max" type="real64">1.00000000000000000000e+001</member>
+			<member name="laxis_min_auto" type="sint32">1</member>
+			<member name="laxis_max_auto" type="sint32">1</member>
+			<member name="raxis_label" type="string">rAxis</member>
+			<member name="raxis_style" type="sint32">0</member>
+			<member name="raxis_min" type="real64">-1.00000000000000000000e+001</member>
+			<member name="raxis_max" type="real64">1.00000000000000000000e+001</member>
+			<member name="raxis_min_auto" type="sint32">1</member>
+			<member name="raxis_max_auto" type="sint32">1</member>
+			<member name="raxis_subsets" type="sint32">0</member>
+		</object>
 		<object name="ObjId1227" type="CPrjItemBlock_CellFormat">
 			<member name="font_name" type="string">Tahoma</member>
 			<member name="font_set" type="uint8">0x0</member>
@@ -14389,7 +14619,64 @@
 			<member name="column_width" type="sint32">50</member>
 			<member name="column_ix" type="sint32">3</member>
 		</object>
-		<object name="ObjId1233" type="CMapObToObEx"/>
+		<object name="ObjId1233" type="CMapObToObEx">
+			<member name="key0" type="CObject_ptr">ObjId0389</member>
+			<member name="value0" type="CObject_ptr">ObjId1496</member>
+			<member name="key1" type="CObject_ptr">ObjId0392</member>
+			<member name="value1" type="CObject_ptr">ObjId1498</member>
+			<member name="key2" type="CObject_ptr">ObjId0395</member>
+			<member name="value2" type="CObject_ptr">ObjId1500</member>
+			<member name="key3" type="CObject_ptr">ObjId0398</member>
+			<member name="value3" type="CObject_ptr">ObjId1502</member>
+			<member name="key4" type="CObject_ptr">ObjId0488</member>
+			<member name="value4" type="CObject_ptr">ObjId1504</member>
+			<member name="key5" type="CObject_ptr">ObjId0491</member>
+			<member name="value5" type="CObject_ptr">ObjId1506</member>
+			<member name="key6" type="CObject_ptr">ObjId0494</member>
+			<member name="value6" type="CObject_ptr">ObjId1508</member>
+			<member name="key7" type="CObject_ptr">ObjId0497</member>
+			<member name="value7" type="CObject_ptr">ObjId1510</member>
+		</object>
+		<object name="ObjId1496" type="CPrjItemBlock_VarInfo">
+			<member name="row_height" type="sint32">15</member>
+			<member name="row_cell_formats" type="CObArrayEx">ObjId1497</member>
+		</object>
+		<object name="ObjId1497" type="CObArray" length="0"/>
+		<object name="ObjId1498" type="CPrjItemBlock_VarInfo">
+			<member name="row_height" type="sint32">15</member>
+			<member name="row_cell_formats" type="CObArrayEx">ObjId1499</member>
+		</object>
+		<object name="ObjId1499" type="CObArray" length="0"/>
+		<object name="ObjId1500" type="CPrjItemBlock_VarInfo">
+			<member name="row_height" type="sint32">15</member>
+			<member name="row_cell_formats" type="CObArrayEx">ObjId1501</member>
+		</object>
+		<object name="ObjId1501" type="CObArray" length="0"/>
+		<object name="ObjId1502" type="CPrjItemBlock_VarInfo">
+			<member name="row_height" type="sint32">15</member>
+			<member name="row_cell_formats" type="CObArrayEx">ObjId1503</member>
+		</object>
+		<object name="ObjId1503" type="CObArray" length="0"/>
+		<object name="ObjId1504" type="CPrjItemBlock_VarInfo">
+			<member name="row_height" type="sint32">15</member>
+			<member name="row_cell_formats" type="CObArrayEx">ObjId1505</member>
+		</object>
+		<object name="ObjId1505" type="CObArray" length="0"/>
+		<object name="ObjId1506" type="CPrjItemBlock_VarInfo">
+			<member name="row_height" type="sint32">15</member>
+			<member name="row_cell_formats" type="CObArrayEx">ObjId1507</member>
+		</object>
+		<object name="ObjId1507" type="CObArray" length="0"/>
+		<object name="ObjId1508" type="CPrjItemBlock_VarInfo">
+			<member name="row_height" type="sint32">15</member>
+			<member name="row_cell_formats" type="CObArrayEx">ObjId1509</member>
+		</object>
+		<object name="ObjId1509" type="CObArray" length="0"/>
+		<object name="ObjId1510" type="CPrjItemBlock_VarInfo">
+			<member name="row_height" type="sint32">15</member>
+			<member name="row_cell_formats" type="CObArrayEx">ObjId1511</member>
+		</object>
+		<object name="ObjId1511" type="CObArray" length="0"/>
 		<object name="ObjId1234" type="CPrjItemBlock">
 			<member name="parent_item" type="CObject_ptr">ObjId1204</member>
 			<member name="name" type="string">shoot_speed</member>

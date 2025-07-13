@@ -6,7 +6,7 @@
 //------------------------------------------------------------------------------------------
 
 const pid_struct_t yaw_pid_ang_loop={
-	.kp = 0.38f,
+	.kp = 0.32f,
 	.ki = 0.0f,
 	.kd = 0.000f,
 	.i_max = 25,
@@ -15,8 +15,8 @@ const pid_struct_t yaw_pid_ang_loop={
 	.dt = 1.f/GIMBAL_TIM_FREQ,
 };
 const pid_struct_t yaw_pid_rpm_loop={
-	.kp = 0.1f,
-	.ki = 0.002f,
+	.kp = 0.07f,
+	.ki = 0.0015f,
 	.kd = 0.001f,
 	.i_max = 0,
 	.out_max = GM6020_VOLT_MAX,
@@ -46,7 +46,7 @@ const pid_struct_t pitch_pid_rpm_loop={
 //gimbal imu pid
 //------------------------------------------------------------------------------------------
 const pid_struct_t yaw_imu_pid_ang_vision_loop={
-	.kp = 0.36f, //1.0f,        
+	.kp = 0.32f, //1.0f,        
 	.ki = 0.0f,       
 	.kd = 0.0f, //15.0f,      
 	.i_max = 25,
@@ -55,8 +55,8 @@ const pid_struct_t yaw_imu_pid_ang_vision_loop={
 	.dt = 1.f/GIMBAL_TIM_FREQ,
 };
 const pid_struct_t yaw_imu_pid_rpm_vision_loop={
-	.kp = 0.09f,   
-	.ki = 0.002f,
+	.kp = 0.07f,   
+	.ki = 0.0015f,
 	.kd = 0.001f,
 	.i_max = 0,
 	.out_max = 0.0f,
@@ -64,7 +64,7 @@ const pid_struct_t yaw_imu_pid_rpm_vision_loop={
 	.dt = 1.f/GIMBAL_TIM_FREQ,
 };
 const pid_struct_t yaw_imu_pid_ang_loop={
-	.kp = 0.36f,         
+	.kp = 0.32f,         
 	.ki = 0.0f,       
 	.kd = 0.0f,       
 	.i_max = 25,
@@ -73,7 +73,7 @@ const pid_struct_t yaw_imu_pid_ang_loop={
 	.dt = 1.f/GIMBAL_TIM_FREQ,
 };
 const pid_struct_t yaw_imu_pid_rpm_loop={
-	.kp = 0.09f,   
+	.kp = 0.07f,   
 	.ki = 0.002f,
 	.kd = 0.0015f,
 	.i_max = 0,
@@ -106,7 +106,7 @@ const pid_struct_t pitch_imu_pid_rpm_loop={
 
 
 const pid_struct_t shoot_left_fric_pid_init_val={
-	.kp = 9.7f,
+	.kp = 9.695f,
 	.ki = 0.0f,
 	.kd = 0.0035f,
 	.i_max = C620_CURR_DATA_MAX/50,

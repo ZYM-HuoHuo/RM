@@ -1,5 +1,5 @@
 #ifndef _GIMBAL_H
-#define _GIMBAL_H
+#define _GIMBAL_H/
 
 #include "Base/rc.h"
 #include "robot.h"
@@ -14,13 +14,13 @@
 #define PITCH_RR 1.f
 #define YAW_RR 1.f
 
-#define PITCH_REL_RAD_MAX 0.73f
-#define PITCH_REL_RAD_MIN 0.16f
-#define YAW_REL_RAD_MAX 5.0453278f
-#define YAW_REL_RAD_MIN 1.0198067f
+#define PITCH_REL_RAD_MAX 0.7f
+#define PITCH_REL_RAD_MIN 0.02f
+#define YAW_REL_RAD_MAX 5.5453278f
+#define YAW_REL_RAD_MIN 0.6198067f
 
 #define GIMBAL_PITCH_MOTOR_CENTER 13700
-#define GIMBAL_YAW_MOTOR_CENTER 6000
+#define GIMBAL_YAW_MOTOR_CENTER 4050
 
 #define PITCH_RES_CPST  0 //0.0306796f
 #define YAW_RES_CPST 0.0606796f
