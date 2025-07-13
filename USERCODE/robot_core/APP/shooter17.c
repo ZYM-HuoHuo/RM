@@ -184,12 +184,12 @@ HAL_StatusTypeDef shooter17_ctrl_loop(rc_ctrl_t *rc_recv, robot_t *robot) {
       slope_following(&zero_number, &set_fric_rpm, 2); // 此值决定停转速度
     }
 
-    fric_output[LEFT] =
-        pid_calc(&fric_pid[LEFT], set_fric_rpm, cur_fric_rpm[LEFT]) * Kn_M3508 *
-        C620_CURR_MAX / C620_CURR_DATA_MAX;
-    fric_output[RIGHT] =
-        pid_calc(&fric_pid[RIGHT], -set_fric_rpm, cur_fric_rpm[RIGHT]) *
-        Kn_M3508 * C620_CURR_MAX / C620_CURR_DATA_MAX;
+    fric_output[LEFT] =0;
+        //pid_calc(&fric_pid[LEFT], set_fric_rpm, cur_fric_rpm[LEFT]) * Kn_M3508 *
+        //C620_CURR_MAX / C620_CURR_DATA_MAX;
+    fric_output[RIGHT] =0;//
+       // pid_calc(&fric_pid[RIGHT], -set_fric_rpm, cur_fric_rpm[RIGHT]) *
+       // Kn_M3508 * C620_CURR_MAX / C620_CURR_DATA_MAX;
     static bool lock_single_shoot = true;
     switch (robot->shooter_tag) {
     case S_STOP_MODE:
