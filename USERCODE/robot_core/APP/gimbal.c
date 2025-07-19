@@ -372,11 +372,11 @@ void gimbal_ctrl_loop(rc_ctrl_t *rc_recv, robot_t *robot){
         if((get_minor_arc(cur_state->pitch_ang,pitch_imu_min,IMU_RANGE) <= pitch_res_cpst/(2*PI) * IMU_RANGE && rocker_lx < 0.0f) || 
             (get_minor_arc(cur_state->pitch_ang,pitch_imu_max,IMU_RANGE) >= -pitch_res_cpst/(2*PI) * IMU_RANGE && rocker_lx > 0.0f))
             rocker_lx = 0; // 已经越界了还要更越界则取消本次操作
-        else exp_state->pitch_ang += rocker_lx;
+        else exp_state->pitch_ang += rocker_lx/8.0f;
         if((get_minor_arc(cur_state->yaw_ang,yaw_imu_min,IMU_RANGE) >= -yaw_res_cpst/(2*PI) * IMU_RANGE && rocker_ly > 0.0f) || 
             ((get_minor_arc(cur_state->yaw_ang,yaw_imu_max,IMU_RANGE)) <= yaw_res_cpst/(2*PI) * IMU_RANGE && rocker_ly < 0.0f))
             rocker_ly = 0; // 已经越界了还要更越界则取消本次操作
-        else exp_state->yaw_ang += rocker_ly;
+        else exp_state->yaw_ang += rocker_ly/8.0f;
 #if 1 // 瞄车
        if(robot->use_vision_flag && vision->target){
            if(!is_vision_offline() &&
